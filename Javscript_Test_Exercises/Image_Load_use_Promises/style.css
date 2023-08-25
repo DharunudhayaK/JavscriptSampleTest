@@ -1,0 +1,15 @@
+.divLabel {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 700px;
+    margin: auto;
+}
+
+.imgLabel {
+    width: 100px;
+    height: 100px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}

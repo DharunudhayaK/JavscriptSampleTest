@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <body onmousemove="coordinate(event)">
+        X-Layer
+        <input type="text" id="X">
+        Y-Layer
+        <input type="text" id="Y">
+    </body>
+    <script>
+        function coordinate(event) {
+            var x = event.clientX;
+            var y = event.clientY;
+            document.getElementById("X").value = x;
+            document.getElementById("Y").value = y;
+        }
+    </script>
+</body>
+
+</html>

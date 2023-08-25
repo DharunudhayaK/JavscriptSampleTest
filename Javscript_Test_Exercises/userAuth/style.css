@@ -1,0 +1,14 @@
+.outerDiv {
+    width: 400px;
+    margin: auto;
+}
+
+.formLabel {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.err {
+    color: red;
+}

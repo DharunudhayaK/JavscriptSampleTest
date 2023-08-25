@@ -1,0 +1,10 @@
+.style1 {
+    color: yellow;
+    background-color: black;
+}
+
+.style2 {
+    text-align: center;
+    font-size: 40px;
+    display: none;
+}
